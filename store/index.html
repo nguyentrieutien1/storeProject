@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -13,66 +12,70 @@
     <title>Store</title>
   </head>
   <body>
-    <div class="container">
-     <header>
-        <nav class="navbar">
-          <div class="logo">
-            <span>TienZ</span>
-            <span>X</span>
-          </div>
-          <ul class="link">
-            <li class="link-item">
-              <a href="/index.html">HOME</a>
-            </li>
-            <li class="link-item">
-              <a href="./store/index.html">STORE</a>
-            </li>
-            <li class="link-item">
-              <a href="">ABOUT</a>
-            </li>
-            <li class="link-item">
-              <a href="./Contact/contact.html">CONTACT</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class="video"></div>
-      <video src="./video/Clothing - 1006.mp4" preload="auto" autoplay="true" loop="loop" muted volume="0"></video>
-      <section class="section">
-        <div class="content">
-          <div class="content__title">
-            <span id="ityped"></span>
-          </div>
-          <div class="dir">
-            <h2>Foundation for sublimation</h2>
-            <span>
-             Aiming at the image of modern women, TienZX fashion focuses on honoring sophistication, elegance<br> and sensuality, with the slogan "Fashion<br> pioneer", Chic-land has built <br> its own image. 
-            </span>
-          </div>
-           <div class="content__btn">
-              <a href="./register/index.html" class="btn__register">REGISTER</a>
-              <a href="./loginForm/index.html" class="btn__login">LOGIN</a>
-            </div>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <span>TienZ</span>
+          <span class="xText">X</span>
         </div>
-      </section>
-      <section>
-        <div class="account">
-          <p class="noi"></p>
-          <div class="account__infor">
-            <i class="far fa-user-circle"></i>
-            <div class="account__user">
-                <div class="account__infor-gmail">
-                    <span>Hello <a href="/" id="nickname"></a></span>
-                    <a href="./myProfile/profile.html" id="account" >Account</a>
-                    <a href="./historyBuyProducts/history.html" id="cart" >Payment history</a>
-                    <a href="./loginForm/index.html" id="logout" >log out</a>
-                </div>
-             </div>
-          </div>
+        <ul class="link">
+          <li class="link-item">
+            <a href="/index.html">HOME</a>
+          </li>
+          <li class="link-item">
+            <a href="/../store/index.html">STORE</a>
+          </li>
+          <li class="link-item">
+            <a href="./../about us/about.html">ABOUT</a>
+          </li>
+          <li class="link-item">
+            <a href="/../Contact/contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section">
+      <div class="btn">
+        <button class="men's clothing">men's</button>
+        <button class="jewelery">jewelery</button>
+        <button class="electronics">electronics</button>
+        <button class="women's clothing">women's</button>
+        <button class="all">All</button>
+      </div>
+      <div class="input">
+        <input type="text" placeholder="Search . . . . ." />
+        <i class="fas fa-search"></i>
+      </div>
+      <select name="" id="input">
+        <option selected value="">Sort Price</option>
+        <option value="Tang">A - Z</option>
+        <option value="Giam ">Z - A</option>
+      </select>
+      <div class="product__cart">
+        <i class="fab fa-opencart"></i>
+        <a href="./../products/index.html">
+          <span class="product-total">0</span>
+        </a>
+        <div class="contact">
+          <a
+            href="https://www.facebook.com/fullstackdeveloper1986/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-messenger"></i>
+          </a>
+          <a href="https://www.instagram.com/fullstack631/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href=""><i class="fab fa-twitter"></i></a>
         </div>
-      </section>
-    </div>
-    <script src="https://unpkg.com/ityped@1.0.2"></script>
-    <script src="./js.js"></script>
+      </div>
+      <div class="product__noti">
+        <span>MUA HÀNG THÀNH CÔNG</span>
+      </div>
+      <div class="product">
+        
+      </div>
+    </section>
   </body>
+  <script src="./index.js"></script>
 </html>
