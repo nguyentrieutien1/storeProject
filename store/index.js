@@ -192,9 +192,7 @@ showData = (data) => {
 // FETCH PRODUTS
 (async function () {
   let urls = "https://fakestoreapi.com/products/";
-  let result = await fetch(urls, {
-    method: "GET",
-  });
+  let result = await fetch(urls, {});
   const data = await result.json();
   showData(data);
   let products = localStorage.getItem("products")
